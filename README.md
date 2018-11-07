@@ -10,7 +10,10 @@ RCTF was a worldwide Free-for-all competition dedicated to InfoSec and CyberSec 
 
 ```
 Title                           Category           Points         Flag
-------------------------------- ------------------ -------------- -----------------------------------------
+------------------------------- ------------------ -------------- ------------------------------------------------
 Old Is Gold                     Crypto             10             RCTF{INFOXPRESSION}
+Francis Secret                  Crypto             20             RCTF{BACONCIPHERISGREAT}
 Automate or Die!                Crypto             30             RCTF{b@se64_1s_c00l}
+Indecipherable                  Crypto             50             rctf{we_live_in_a_kingdom_of_bullshit}
+I love numbers               	Crypto             150            RCTF{1_sh0uld_hav3_gone_with_Sha1_for_3ncrypti0n}
 ```
