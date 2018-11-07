@@ -3,6 +3,7 @@
 
 RCTF was a worldwide Free-for-all competition dedicated to InfoSec and CyberSec Community. It was a Jeopardy type capture the flag competition, held online where participants were presented with questions related to Cryptography, Web Hacking, Forensics, Reverse, Steganography and other various fields of cyber and information security.
 
+## Overview
 **URL:** http://www.rootersctf.in/ (still online)<br>
 **Organizer:** <a href="http://www.ipu.ac.in/usict">USICT</a><br>
 **Duration:** 15 Hrs<br>
