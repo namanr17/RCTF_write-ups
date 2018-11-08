@@ -65,4 +65,24 @@ Note: Flag is case-insensitive.
  
  The given quote suggests _repetition_ and [Cipher Text](writeupfiles/cipher_text) contains a base64 encoeded value. So maybe it's the repeated base64 encyption.
  
- 
+ A simple python script can decode it recursively until the flag is obtained.
+ ```
+ #!/usr/bin/env python3
+
+import base64
+
+with open("cipher.txt", 'rb') as f:
+    flag = f.read()
+
+while True:
+    flag = base64.b64decode(flag)
+    if flag.decode("utf-8")[0:4] == 'RCTF':
+        print(flag)
+        exit()
+```
+
+**Flag**
+
+`RCTF{b@se64_1s_c00l}`
+
+
