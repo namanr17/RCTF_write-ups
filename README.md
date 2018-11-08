@@ -32,7 +32,9 @@ Decode this: 444-66-333-666-99-7-777-33-7777-7777-444-666-66<br>
 
 **Solution**
 
-Here, _Old_ refers to the old fashioned basic cell phones and the given crypted text contains only repeated decimal numbers. Thus, it seems like the flag is encrypted with [old_style_keypad](writeupfiles/nokia-keypad.png) just like it was used to type back then.
+Here, _Old_ refers to the old fashioned basic cell phones and the given crypted text contains only repeated decimal numbers. Thus, it seems like the flag is encrypted with an old fashioned keypad just like it was used to type back then.
+
+![](writeupfiles/nokia-keypad.png)
 
 444 - I  
 66 - N  
