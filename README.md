@@ -59,11 +59,11 @@ Note: Flag is case-insensitive.
 **Challenge**
 
  “Try, try and fail, but never fail to try!”
- [Cipher Text](writeupfiles/cipher_text)
+ [Cipher Text](writeupfiles/cipher.txt)
  
  **Solution**
  
- The given quote suggests _repetition_ and [Cipher Text](writeupfiles/cipher_text) contains a base64 encoeded value. So maybe it's the repeated base64 encyption.
+ The given quote suggests _repetition_ and [Cipher Text](writeupfiles/cipher.txt) contains a base64 encoeded value. So maybe it's the repeated base64 encyption.
  
  A simple python script can decode it recursively until the flag is obtained.
  ```
