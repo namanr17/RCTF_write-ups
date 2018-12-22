@@ -88,3 +88,13 @@ while True:
 `RCTF{b@se64_1s_c00l}`
 
 
+## Crypto 50: Indecipherable
+
+**Challange**
+
+Sometimes what we are looking for is right in front of us.
+[Cipher Text](writeupfiles/cipher_text.zip)
+
+**Solution**
+
+The given [Cipher Text](writeupfiles/cipher_text.zip) is an encrypted zip file which can be cracked by dictionary attack using fcrackzip tool.
