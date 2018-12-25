@@ -55,6 +55,21 @@ Here, _Old_ refers to the old fashioned basic cell phones and the given crypted 
 `RCTF{INFOXPRESSION}`<br>
 Note: Flag is case-insensitive.
 
+## Crypto 20: Francis Secret
+
+**Challenge**
+
+"Put the flag in RCTF{}"
+ 
+ "AAAABAAAAAAAABAABBABABBAAAAABAABAAAABBBAAABBBAABAABAAAAABAAABAAABAABBABAAAAAABAAAAAAABAABA"
+
+ **Solution**
+On searching the Francis Cipher we got the link of [Bacon cipher](https://en.wikipedia.org/wiki/Bacon%27s_cipher)
+DEcode using the online [decoder](https://www.dcode.fr/bacon-cipher)
+
+**Flag**
+
+`RCTF{BACONCIPHERISGREAT}`
 
 ## Crypto 30: Automate or Die!
 
