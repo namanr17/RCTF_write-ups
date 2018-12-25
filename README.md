@@ -98,3 +98,15 @@ Sometimes what we are looking for is right in front of us.
 **Solution**
 
 The given [Cipher Text](writeupfiles/cipher_text.zip) is an encrypted zip file which can be cracked by dictionary attack using fcrackzip tool.
+
+![](writeupfiles/shell.jpg)
+
+![](writeupfiles/fcrackzip.jpg)
+
+On extracting the files from encrypted zip file using password "fsociety", we get a text file with flag like text in it. Also, Vignere Cipher is also known as "the indecipherable cipher", hinting the possibility of vignere encryption. Decrypting it with "Indecipherable" as the key on https://cryptii.com/pipes/vigenere-cipher gives the flag.
+
+![](writeupfiles/cryptii.png)
+
+**Flag**
+
+`rctf{we_live_in_a_kingdom_of_bullshit}`
