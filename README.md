@@ -1,6 +1,6 @@
 # RCTF_write-ups
 
-`Here lies the write-ups for the challenges presented in Rooters CTF, hosted by Team 1ncogn1to, the CTF team of USICT.`
+`Here lie the write-ups for the challenges presented in Rooters CTF, hosted by Team 1ncogn1to, the CTF team of USICT.`
 
 RCTF was a worldwide Free-for-all competition dedicated to InfoSec and CyberSec Community. It was a Jeopardy type capture the flag competition, held online where participants were presented with questions related to Cryptography, Web Hacking, Forensics, Reverse, Steganography and other various fields of cyber and information security.
 
@@ -32,7 +32,7 @@ Decode this: 444-66-333-666-99-7-777-33-7777-7777-444-666-66<br>
 
 **Solution**
 
-Here, _Old_ refers to the old fashioned basic cell phones and the given crypted text contains only repeated decimal numbers. Thus, it seems like the flag is encrypted with an old fashioned keypad just like it was used to type back then.
+Here, _Old_ refers to the old-fashioned basic cell phones and the given encrypted text contains only repeated decimal numbers. Thus, it seems like the flag is encrypted with an old-fashioned keypad just like it was used to type back then.
 
 ![](writeupfiles/keypad.jpg)
 
@@ -54,6 +54,25 @@ Here, _Old_ refers to the old fashioned basic cell phones and the given crypted 
 
 `RCTF{INFOXPRESSION}`<br>
 Note: Flag is case-insensitive.
+
+
+## Crypto 20: Francis Secret
+
+**Challenge**
+
+`Put the flag in RCTF{}`
+![](writeupfiles/francis_secret.txt)
+
+**Solution**
+
+The name of the challenge, 'Francis Secret', suggests the use of Francis Cipher. On decoding the encrypted text using the common 24-letter cipher alphabet ABCDEFGHIKLMNOPQRSTUWXYZ, we get the flag.
+Decoder: (https://mothereff.in/bacon)
+
+![](writeupfiles/francis.jpg)
+
+**Flag**
+
+`RCTF{BACONCIPHERISGREAT}`
 
 
 ## Crypto 30: Automate or Die!
