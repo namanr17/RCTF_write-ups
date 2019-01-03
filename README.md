@@ -19,7 +19,10 @@ Old Is Gold                     Crypto             10             RCTF{INFOXPRES
 Francis Secret                  Crypto             20             RCTF{BACONCIPHERISGREAT}
 Automate or Die!                Crypto             30             RCTF{b@se64_1s_c00l}
 Indecipherable                  Crypto             50             rctf{we_live_in_a_kingdom_of_bullshit}
-I love numbers                	Crypto             150            RCTF{1_sh0uld_hav3_gone_with_Sha1_for_3ncrypti0n}
+I love numbers                 	Crypto             150            RCTF{1_sh0uld_hav3_gone_with_Sha1_for_3ncrypti0n}
+50 Shades of Stegano            Stegano            10             RCTF{C0L0URBL1ND}
+M4SS4CR3                        Stegano            50             RCTF{wubba_lubba_dub_dub}
+Hide-and-seek                   Stegano            100            RCTF{x0r_is_we1rd}
 ```
 
 
@@ -129,3 +132,21 @@ On extracting the files from encrypted zip file using password "fsociety", we ge
 **Flag**
 
 `rctf{we_live_in_a_kingdom_of_bullshit}`
+
+
+## Stegano 10: 50 Shades of Stegano
+
+**Challenge**
+
+You can't see me!
+[hidden.png](writeupfiles/hidden.png)
+
+**Solution**
+
+As the challenge name suggests, viewing the given image file ([hidden.png](writeupfiles/hidden.png)) with different filters with the help of '<a href="https://github.com/zardus/ctf-tools/blob/master/stegsolve/install">Stegsolve</a>' tool will make the flag visible. Also, just by focusing hard enough on the bottom side of the image you can see the flag written in a shade of black slightly different then the base one. 
+![stegsolve.jpg](writeupfiles/stegsolve.jpg)
+Note: Flag is in leetspeak.
+
+**Flag**
+
+`RCTF{C0L0URBL1ND}`
