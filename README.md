@@ -19,7 +19,6 @@ Old Is Gold                     Crypto             10             RCTF{INFOXPRES
 Francis Secret                  Crypto             20             RCTF{BACONCIPHERISGREAT}
 Automate or Die!                Crypto             30             RCTF{b@se64_1s_c00l}
 Indecipherable                  Crypto             50             rctf{we_live_in_a_kingdom_of_bullshit}
-I love numbers                 	Crypto             150            RCTF{1_sh0uld_hav3_gone_with_Sha1_for_3ncrypti0n}
 50 Shades of Stegano            Stegano            10             RCTF{C0L0URBL1ND}
 M4SS4CR3                        Stegano            50             RCTF{wubba_lubba_dub_dub}
 Hide-and-seek                   Stegano            100            RCTF{x0r_is_we1rd}
