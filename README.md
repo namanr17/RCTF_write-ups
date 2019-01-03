@@ -144,8 +144,8 @@ You can't see me!
 
 As the challenge name suggests, viewing the given image file ([hidden.png](writeupfiles/hidden.png)) with different filters with the help of '<a href="https://github.com/zardus/ctf-tools/blob/master/stegsolve/install">Stegsolve</a>' tool will make the flag visible. Also, just by focusing hard enough on the bottom side of the image you can see the flag written in a shade of black slightly different then the base one. 
 ![stegsolve.jpg](writeupfiles/stegsolve.jpg)
-Note: Flag is in leetspeak.
 
 **Flag**
 
 `RCTF{C0L0URBL1ND}`
+Note: Flag is in leetspeak.
